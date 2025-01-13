@@ -37,12 +37,12 @@ The BMSmonitor gather data on CAN and save it in a ".csv" file that can be send 
 3. Compile ESP32_BLE_Scanner.ino Arduino sketch, and flash it to ESP32 board. 
    After flashing, you can connect to "local_IP" set above with any internet browser.
 
-<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/BMSmonitorScreen.jpg" height="300"/></a>
+<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/BMSmonitorScreen.jpg" height="600"/></a>
 
 When you press "Turn Logging ON" the ESP32 wil start a new log file. When you press it again the loging wil stop.
 Then you can press "Turn FTP TX ON" to transfer the file.
 
-<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/ESP32-BMSmonitor.jpg" height="300"/></a>
+<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/ESP32-BMSmonitor.jpg" height="600"/></a>
 
 Connections:
     1) CAN-H (Blue wire (pin 4) on Ethernet cable) to CAN-H on CAN line driver board.
@@ -53,7 +53,7 @@ Connections:
     6) ESP32 pin 18 to RX on CAN line driver board.
     7) ESP32 power from USB cable
 
-<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/ChargeB.jpg" height="300"/></a>
+<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/ChargeB.jpg" height="600"/></a>
 
 This graph was obtained while charging my Enertec Megatank GL48100 battery from my Deye inverter at 36 Amps.
 The ".csv" file was modified and ran through the gnuplot tool on Linux to get this graph. 
