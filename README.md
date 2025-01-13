@@ -58,7 +58,7 @@ This graph was obtained while charging my Enertec Megatank GL48100 battery from 
 The ".csv" file was modified and ran through the gnuplot tool on Linux to get this graph. 
 In the CAN packets I see a lot of zero's and some fields are just garbage data - is this normal?
 
-1) The green shaded area is the Constant Current charging at 36 Amps where you see the SOC go up in a perfect straight line. The Voltage nearly flat with small bump at 70 % SOC – exactly like your curves. This look fine.
+1) The green shaded area is the Constant Current charging at 36 Amps where you see the SOC go up in a perfect straight line. The Voltage nearly flat with small bump at 70 % SOC – exactly like Andy's curves from "Off-Grid Garage" Youtube chanel. This look fine.
 2) The pink shaded area is strange. Here the current drop logarithmicly to zero over about 10 min. This do not seem to me enough time at low current for balancing let alone for absorption. This look very funny to me.
 3) The yellow shaded area just show how the SOC slowly creep up to 100% when the current drop slowly. This look fine.
 4) The Blue area is just where the battery settle down after charging. Also look fine.
