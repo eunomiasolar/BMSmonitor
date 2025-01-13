@@ -33,7 +33,6 @@ The BMSmonitor gather data on CAN and save it in a ".csv" file that can be send 
       char ftp_server[] = "10.0.0.XXX";   // Insert your ftp server IP here <br>
       char ftp_user[]   = "XXXXXXX";      // Insert your ftp server username here <br>
       char ftp_pass[]   = "XXXXX";        // Insert your ftp server password here <br>
- <br>
 3. Compile ESP32_BLE_Scanner.ino Arduino sketch, and flash it to ESP32 board. 
    After flashing, you can connect to "local_IP" set above with any internet browser.
 
@@ -44,14 +43,14 @@ Then you can press "Turn FTP TX ON" to transfer the file.
 
 <a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/ESP32-BMSmonitor.jpg" height="600"/></a>
 
-Connections:
-    1) CAN-H (Blue wire (pin 4) on Ethernet cable) to CAN-H on CAN line driver board.
-    2) CAN-L (Blue&White wire (pin 5) on Ethernet cable) to CAN-L on CAN line driver board.
-    3) ESP32 Ground to Ground on CAN line driver board.
-    4) ESP32 5V to VCC on CAN line driver board.
-    5) ESP32 pin 19 to TX on CAN line driver board.
-    6) ESP32 pin 18 to RX on CAN line driver board.
-    7) ESP32 power from USB cable
+Connections: <br>
+    1) CAN-H (Blue wire (pin 4) on Ethernet cable) to CAN-H on CAN line driver board. <br>
+    2) CAN-L (Blue&White wire (pin 5) on Ethernet cable) to CAN-L on CAN line driver board. <br>
+    3) ESP32 Ground to Ground on CAN line driver board. <br>
+    4) ESP32 5V to VCC on CAN line driver board. <br>
+    5) ESP32 pin 19 to TX on CAN line driver board. <br>
+    6) ESP32 pin 18 to RX on CAN line driver board. <br>
+    7) ESP32 power from USB cable <br>
 
 <a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/ChargeB.jpg" height="600"/></a>
 
