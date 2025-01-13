@@ -22,22 +22,22 @@ The BMSmonitor gather data on CAN and save it in a ".csv" file that can be send 
 # Installation and Running
 
 1. Open the BMSmonitor.ino Arduino sketch in Arduino IDE.
-2. Edit defines, IP addresses and variables to fit your needs:
-      #define WIFI_SSID "XXXXXXX"         // Insert your WiFi SSID and password here
-      #define WIFI_PASS "XXXXXXX"
-      IPAddress local_IP(10, 0, 0, 0);    // Insert your correct IP addresses in the following
-      IPAddress gateway(10, 0, 0, 0);
-      IPAddress subnet(255, 255, 0, 0);
-      IPAddress primaryDNS(10, 0, 0, 0);
-      IPAddress secondaryDNS(10, 0, 0, 0);
-      char ftp_server[] = "10.0.0.XXX";   // Insert your ftp server IP here
-      char ftp_user[]   = "XXXXXXX";      // Insert your ftp server username here
-      char ftp_pass[]   = "XXXXX";        // Insert your ftp server password here
-
+2. Edit defines, IP addresses and variables to fit your needs: <br>
+      #define WIFI_SSID "XXXXXXX"         // Insert your WiFi SSID and password here <br>
+      #define WIFI_PASS "XXXXXXX" <br>
+      IPAddress local_IP(10, 0, 0, 0);    // Insert your correct IP addresses in the following <br>
+      IPAddress gateway(10, 0, 0, 0); <br>
+      IPAddress subnet(255, 255, 0, 0); <br>
+      IPAddress primaryDNS(10, 0, 0, 0); <br>
+      IPAddress secondaryDNS(10, 0, 0, 0); <br>
+      char ftp_server[] = "10.0.0.XXX";   // Insert your ftp server IP here <br>
+      char ftp_user[]   = "XXXXXXX";      // Insert your ftp server username here <br>
+      char ftp_pass[]   = "XXXXX";        // Insert your ftp server password here <br>
+ <br>
 3. Compile ESP32_BLE_Scanner.ino Arduino sketch, and flash it to ESP32 board. 
    After flashing, you can connect to "local_IP" set above with any internet browser.
 
-<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/BMSmonitorScreen.jpg" height="600"/></a>
+<a href="https://github.com/eunomiasolar/BMSmonitor/blob/main/"><img src="Photos/BMSmonitorScreen.jpg" height="400"/></a>
 
 When you press "Turn Logging ON" the ESP32 wil start a new log file. When you press it again the loging wil stop.
 Then you can press "Turn FTP TX ON" to transfer the file.
